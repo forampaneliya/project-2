@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let phy=parseInt(prompt("enter marks of physics"));
+        let chem=parseInt(prompt("enter marks of chemistry"));
+        let bio=parseInt(prompt("enter marks of biology"));
+        let math=parseInt(prompt("enter marks of maths"));
+        let comp=parseInt(prompt("enter marks of computer"));
+        let total=phy+chem+bio+math+comp;
+
+        console.log("total=",total);
+        let per=total/5;
+
+        console.log("per=",per);
+
+        if(per>=90 && per<=100)
+        {
+            console.log("grade A");
+        }
+        else if(per>=80 && per<=89)
+        {
+            console.log("grade B");
+        }
+        else if(per>=70 && per<=79)
+        {
+            console.log("grade C");
+        }
+        else if(per>=60 && per<=69)
+        {
+            console.log("grade D");
+        }
+        else if(per>=50 && per<=59)
+        {
+            console.log("grade E");
+        }
+        else if(per>=40 && per<=49)
+        {
+            console.log("grade B");
+        }
+        else
+        {
+            console.log("you are fail");
+        }
+
+
+    </script>
+    
+</body>
+</html>
